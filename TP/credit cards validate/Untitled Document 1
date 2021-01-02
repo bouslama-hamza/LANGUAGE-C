@@ -1,0 +1,32 @@
+Algorithme		cart_valider
+Variable		i,n,S,D :entier;
+Debut
+   Ecrire("donnez un nombre de carte banquer :);
+   Lire(n);
+   i<--0;
+   S<--0;
+   	Tant que(n<>0)faire
+  	   Si(n>=10)alors
+  	   i<--0;
+  	   Faire
+  	   n-i;
+  	   i<--i+1;
+  	   Tant que((n-1)>=10 et (n-1)%10<>0)
+  	   FinTant que
+  	   D<--n-(n-i);
+  	   Sinon 
+  	   D=n;
+  	   FinSi
+  	   Si(D%2=0)alors
+  	   D<--2*D;
+  	   FinSi
+  	   S<--S+D;
+  	   n<--(n-i)/10;
+  	FinTantque
+  	Si(S%10=0)alors
+  	Ecrire("votre numero card est valid");
+  	Sinon
+  	Ecrire("votre numero card est non valid");
+  	FinSi
+Fin  	   
+  	   	

@@ -1,0 +1,8 @@
+   	=role de programme:        
+la role de cette programme est:
+si utilisateur ecrire le nombre 0: programme va affishe : nul
+si utilisateur ecrire le nombre 1: programme va affishe : un
+si utilisateur ecrire le nombre 2: programme va affishe :deux
+si utilisateur ecrire un autre nombre le programme ca sortie et ecrire : au revoir
+         => role de instruction (break):
+L'instruction Break est utilisé pour sortir instantanément de la boucle. Chaque fois que le compilateur trouve une instruction break dans une boucle, le compilateur sort directement de la boucle et passe à l'instruction suivant.

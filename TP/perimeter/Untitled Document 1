@@ -1,0 +1,6 @@
+1_
+ce programme est calculer la surface de cercle. 
+3_
+si l'utilisateur va ecrire un nombre negative : le programme vas calculer sa nombre a la puissance 2 et il va devient un nombre positive
+par exemple : 5^2 = 25
+	      (-5)^2 = 25   	

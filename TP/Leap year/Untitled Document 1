@@ -1,0 +1,13 @@
+Algorithme         annees_bissextile
+variable		n : entier;
+Debut
+     Ecrire("donnez un annee :");
+     Lire(n);
+     	Si(n%4=0 et n%100<>0)alors
+     	  Ecrire("l'annee",n,"est bissextile");
+     	SinonSi(n%400=0)
+     	  Ecrire("l'annee",n,"est bissextile");
+     	Sinon
+     	  Ecrire("l'annee",n,"n'est pas bissextile");	
+     	finSi
+Fin     	  

@@ -1,0 +1,36 @@
+Algorithme		boulangerie
+Variable		j,h:entier;
+Debut
+	Ecrire("donnez le jour:0_lundi1_mardi2_mercredi3_joudi4_vendredi5_samedi6_dimanche:");
+	Lire(j);
+	Ecrire("donnez l'heure:");
+	Lire(h);
+	Selon(j)faire
+	  Cas "0":Si(h>=7 et h<=13)alors Ecrire("le boulangerie est ouverte");
+	  	Sinon Ecrire("le boulangerie n'est pas ouverte");
+	  	FinSi
+	  Cas "1":Ecrire("le boulangerie n'est pas ouverte");
+	  Cas "2":Si((h>=7 et h<=13)ou(h>16 && h<=20))alors Ecrire("le boulangerie est ouverte");
+	  	Sinon Ecrire("le boulangerie n'est pas ouverte");
+	  	FinSin
+	  Cas "3":Si((h>=7 et h<=13)ou(h>16 && h<=20))alors Ecrire("le boulangerie est ouverte");
+	  	Sinon Ecrire("le boulangerie n'est pas ouverte");
+	  	FinSin
+	  Cas "4":Si((h>=7 et h<=13)ou(h>16 && h<=20))alors Ecrire("le boulangerie est ouverte");
+	  	Sinon Ecrire("le boulangerie n'est pas ouverte");
+	  	FinSin
+	  Cas "5":Si((h>=7 et h<=13)ou(h>16 && h<=20))alors Ecrire("le boulangerie est ouverte");
+	  	Sinon Ecrire("le boulangerie n'est pas ouverte");
+	  	FinSin
+	  Cas "6":Si((h>=7 et h<=13)ou(h>16 && h<=20))alors Ecrire("le boulangerie est ouverte");
+	  	Sinon Ecrire("le boulangerie n'est pas ouverte");
+	  	FinSin
+	  Sinon Ecrire("choix invalid ressayer");
+	FiSelon
+Fin	  	
+	  	
+	  	
+	  	
+	  	
+	  
+
