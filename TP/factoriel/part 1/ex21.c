@@ -29,3 +29,4 @@ int main(){
     printf("le factorielle de nombre %d est : %d\n",n,S);
     }
 }
+
